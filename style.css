@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item img{
+     height: 600px;
+     object-fit: cover;
+}
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+}
+
+.carousel-caption h5{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption p{
+    font-size:1.2rem;   
+}
+
+
+.maincon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.card{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+.card-hover:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-img-top{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
